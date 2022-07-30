@@ -7,24 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <body>
-	<header style="text-align: center;">
-		<h2 class="shadow">清和十四 の Website</h2>
-		<p>
-			<a href="https://qinghe14.github.io/">首页</a>
-			&nbsp&nbsp
-			<a href="https://qinghe14blogs.github.io/">博客</a>
-			&nbsp&nbsp
-			<a href="https://qinghe14blogs.github.io/">班级新闻</a>
-			&nbsp&nbsp
-			<a href="https://qinghe14blogs.github.io/">公告</a>
-			&nbsp&nbsp
-			<a href="https://qinghe14blogs.github.io/">OI</a>
-			&nbsp&nbsp
-			<a href="https://qinghe14blogs.github.io/">教学工具</a>
-			&nbsp&nbsp
-			<a href="https://qinghe14blogs.github.io/">其他</a>
-		</p>
-	</header>
+	<div class="top"></div>
 	<article>
 		<!--首页内容-->
 		<section>
@@ -60,15 +43,13 @@
 			</details>
 		</section>
 	</article>
-	<footer>
-		<br>
-		<nav style="text-align: right;">
-			<p><a href="https://www.luogu.com.cn/paste/k5jz11b8" title="luogu剪贴板收集的网站">常用网站</a>|<a href="https://www.luogu.com.cn/user/343342" title="我的洛谷">我的洛谷</a>|<a href="call.html" title="联系我们">联系我们</a></p>
-			<p><a href="rule.html" title="社区规则">社区规则</a>|<a href="join.html" title="加入我们">加入我们</a>|<a href="about.html" title="关于清和">关于清和</a></p>
-		</nav>
-		<p style="text-align: right;">Designed by: 1435yxy &nbsp&nbsp <br> Thanks: GitHub.com &nbsp&nbsp&nbsp</p>
-		<p style="text-align: right;">2022-2022 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
-		<br>
-	</footer>
+	<div class="footer"></div>
+	<script type="text/javascript"src="http://code.jquery.com/jquery-1.4.1.min.js"></script>
+	<script>
+	    $(function(){
+	        $(".top").load("include/top.html");
+	        $(".footer").load("include/footer.html");
+	    });
+	</script>
 </body>
 </html>
