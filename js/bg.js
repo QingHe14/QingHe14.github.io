@@ -1,5 +1,4 @@
-复制代码<script>
-  !function(){
+!function(){
   
  function n(n,e,t){
   
@@ -19,7 +18,7 @@
   
  return{
   
- l:o,z:n(i,"zIndex",-1),o:n(i,"opacity",.5),c:n(i,"color","0,0,0"),n:n(i,"count",500)
+ l:o,z:n(i,"zIndex",-1),o:n(i,"opacity",.5),c:n(i,"color","0,0,0"),n:n(i,"count",200)
   
  }
   
@@ -89,5 +88,3 @@ x=window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRe
  setTimeout(function(){i()},100)
   
  }();
-  
- </script>
