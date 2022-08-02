@@ -8,17 +8,38 @@
 	<link rel="stylesheet" type="text/css" href="css/font.css">
 </head>
 <body>
-	<div class="top"></div>
+	<header style="text-align: center;" class="title">
+		<div class="div_title">
+			<h2>清和十四 の Website</h2>
+		</div>
+	</header>
+	<nav>
+		<div id="nav">
+			<a href="https://qinghe14.github.io/" class="a_white">首页</a>
+			&nbsp&nbsp
+			<a href="https://qinghe14blogs.github.io/" class="a_white">博客</a>
+			&nbsp&nbsp
+			<a href="https://qinghe14blogs.github.io/" class="a_white">班级新闻</a>
+			&nbsp&nbsp
+			<a href="https://qinghe14blogs.github.io/" class="a_white">公告</a>
+			&nbsp&nbsp
+			<a href="https://qinghe14blogs.github.io/" class="a_white">OI</a>
+			&nbsp&nbsp
+			<a href="https://qinghe14blogs.github.io/" class="a_white">教学工具</a>
+			&nbsp&nbsp
+			<a href="https://qinghe14blogs.github.io/" class="a_white">其他</a>
+		</div>	
+	</nav>
 	<article class="normal">
-		<div style="width: 80%; margin: 0px auto;clear: both;">
+		<div id="bg_div">
 			<!--首页内容-->
-			<div style="width: 79.5%;float: left;background-color: rgb(220, 255, 220,0.4);border-radius:10px;">
+			<div style="width: 79.5%;float: left;margin-bottom: 10px;" id="normaldiv">
 				<section>
 					<details open id="gwjj">
 						<summary class="summary_title">
 							<b style="font-size: 30px;">官网简介</b>
 						</summary>
-						<div class="div_border" style="width: 90%; margin:0px auto">
+						<div class="div_border">
 							<p>
 								欢迎来到清和14的官方网站！！一个有趣的随意免费开源前端项目。<br>我们有优质的开发团队，有<b>zxq</b>等人领导的学霸学习领导小组支持。我们这里投放的大量的学习资料，为大家提供优质的云学习平台，该网站也为同学们提供信息处理、数据统计等服务。我们还可以在这里做一些有趣的事情，毕竟网站的开源是<strong>十分灵活</strong>的。
 							</p>
@@ -28,7 +49,7 @@
 						<summary class="summary_title">
 							<b style="font-size: 30px;">功能介绍</b>
 						</summary>
-						<div class="div_border" style="width: 90%; margin:0px auto">
+						<div class="div_border">
 							<p>
 								这个网站主要是服务于学习的，所以我们主要提供文化课的资源提供、题解博客、考试游记、学习方法分享等内容。由于该网站开发者比较喜欢OI，所以还增设了OI的内容。这里还有数据统计，计算，鬼畜过生日的一些娱乐项目，供大家放松。我们也可以根据用户需要扩展新功能，如有新功能建议请点击网页下方<q>联系我们</q>。
 							</p>
@@ -38,7 +59,7 @@
 						<summary class="summary_title">
 							<b style="font-size: 30px;">如何投放文章</b>
 						</summary>
-						<div class="div_border" style="width: 90%; margin:0px auto">
+						<div class="div_border">
 							<p>
 								如果您有好的文章或资源想在该网站上分享，可以通过下方<q>联系我们</q>处向开发者发送邮箱，也可以直接通过QQ（1508230297），将源文件发送给开发者，备注作者姓名，投稿时间，类别等必要信息。经过审核后将可以在网站相应位置找到。
 							</p>
@@ -47,23 +68,33 @@
 				</section>
 				<br>
 			</div>
-			<div style="width: 19.5%; float: right; background-color: rgb(220, 255, 220,0.4);border-radius:10px;">
+			<div style="width: 19.5%; float: right;" id="normaldiv">
 				<h1 style="text-align: center;">
-					#侧边栏#
+					#目录#
 				</h1>
 				<nav>
 					<ul>
-						<li><a href="#gwjj">官网简介</a></li>
-						<li><a href="#gnjs">功能介绍</a></li>
-						<li><a href="#rhtfwz">如何投放文章</a></li>
-						<li><a href="#shui">水</a></li>
+						<li><a href="#gwjj" class="a_black">官网简介</a></li>
+						<li><a href="#gnjs" class="a_black">功能介绍</a></li>
+						<li><a href="#rhtfwz" class="a_black">如何投放文章</a></li>
+						<li><a href="#shui" class="a_black">水</a></li>
 					</ul>
 					<br>
 				</nav>
 			</div>
 		</div>
-		<div class="footer"></div>
 	</article>
+	<footer>
+		<div id="footer">
+			<br><br><br>
+			<a href="about.html" class="a_white">关于站点</a>|<a href="tel.html" class="a_white">联系我们</a>|<a href="join.html" class="a_white">招贤纳才</a>
+			<br>清和十四のWebsite<br>
+				©sdfz 1435yxy<br>
+				Developed by
+				Qinghe Dev Team<br>
+				清和班主任备 1145141919810号
+		</div>
+	</footer>
 	<script type="text/javascript" src="js/bg.js"></script>
 	<!--看板娘-->
     <script type="text/javascript" src="js/L2Dwidget.0.min.js"></script>
@@ -78,14 +109,6 @@
 	        "vOffset": 0
 	          }
 	     });
-	</script>
-	<!--引入部分-->
-	<script type="text/javascript"src="js/jquery.min.js"></script>
-	<script>
-	    $(function(){
-	        $(".top").load("include/top.html");
-	        $(".footer").load("include/footer.html");
-	    });
 	</script>
 </body>
 </html>
