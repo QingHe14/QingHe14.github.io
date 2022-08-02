@@ -1,0 +1,16 @@
+.div_border{
+	border: 2px solid seagreen;
+	background-color: rgb(240,255,240,0.5);
+	border-radius:10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+body{
+	background-color: rgb(170,220,170);
+}
+.div_margin{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+}

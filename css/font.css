@@ -1,0 +1,25 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.normal{
+	text-indent: 2em;
+	font-size: 20px;
+}
+.title{
+	font-size: 50px;
+	color: yellowgreen;
+	font-weight: 900;
+	font-family: 思源黑体;
+}
+.summary_title{
+	font-size: 40px;
+}
+.a_white{
+	color: white;
+	font-style: normal;
+}
+.a_black{
+	color: black;
+	font-style: normal;
+}
