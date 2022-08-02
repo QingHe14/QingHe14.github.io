@@ -6,6 +6,7 @@
 	margin-bottom: 10px;
 	width: 90%; 
 	margin:0px auto;
+	padding: 10px;
 }
 body{
 	background-color: rgb(200,220,200);
@@ -90,4 +91,5 @@ div{
 	color: #ffffff; 
 	clear: both;
 	margin-top: 10px;
+	font-size: 20px;
 }
