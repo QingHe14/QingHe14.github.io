@@ -39,25 +39,26 @@
 			<!--左边栏-->
 			<div class="left">
 				<br>
-				<h1 style="text-align: center;">最新动态</h1>
+				<h1>&nbsp最新动态</h1>
 			</div>
 			<!--内容-->
 			<div class="index">
-
+				<br>
+				<h1>&nbsp通知</h1>
 			</div>
 			<!--搜索框-->
 			<div class="right">
 				<div class="right_top"></div>
-				<div class="right_bottom" style="text-align: center;">
+				<div class="right_bottom">
 					<br>
-					<h1>颓废区</h1>
-					<h4>不要颓啊</h2>
+					<h1>&nbsp颓废区</h1>
+					<h4>&nbsp&nbsp不要颓啊</h2>
 					<br>
-					<a href="https://www.luogu.com.cn/paste/qrhpg92c" class="a_black" style="font-size: 20px;" target="_blank">OI颓 </a><br>
-					<a href="https://florr.io/" class="a_black" style="font-size: 20px;" target="_blank">Games </a><br>
-					<a href="https://note.ms/gsq" class="a_black" style="font-size: 20px;" target="_blank">灌水区 </a><br>
-					<a href="https://txtpad.cn/complain" class="a_black" style="font-size: 20px;" target="_blank">抱怨版（密码私信）</a><br><!--password:complainboard-->
-					<a href="114514" class="a_black" style="font-size: 20px;" target="_blank">水</a>
+					<a href="https://www.luogu.com.cn/paste/qrhpg92c" class="a_black" style="font-size: 20px;" target="_blank">&nbsp&nbspOI颓 </a><br>
+					<a href="https://florr.io/" class="a_black" style="font-size: 20px;" target="_blank">&nbsp&nbspGames </a><br>
+					<a href="https://note.ms/gsq" class="a_black" style="font-size: 20px;" target="_blank">&nbsp&nbsp灌水区 </a><br>
+					<a href="https://txtpad.cn/complain" class="a_black" style="font-size: 20px;" target="_blank">&nbsp&nbsp抱怨版（密码私信）</a><br><!--password:complainboard-->
+					<a href="114514" class="a_black" style="font-size: 20px;" target="_blank">&nbsp&nbsp水</a>
 				</div>
 			</div>
 		</div>
@@ -75,19 +76,29 @@
 			</div>
 	</footer>
 	<script type="text/javascript" src="js/bg.js"></script>
-	<!--看板娘
+	<!--看板娘-->
     <script type="text/javascript" src="js/L2Dwidget.0.min.js"></script>
 	<script type="text/javascript" src="js/L2Dwidget.min.js"></script>
 	<script type="text/javascript">
-	    L2Dwidget.init({"display": {
-	        "superSample": 2,
-	        "width": 200,
-	        "height": 400,
-	             "position": "right",
-	                 "hOffset": 0,
-	        "vOffset": 0
-	          }
+	    L2Dwidget.init({
+		    display: {
+		        "superSample": 2,
+		        "width": 200,
+		        "height": 400,
+		        "position": "right",
+		        "hOffset": 0,
+		        "vOffset": 0
+	         }
 	     });
-	</script>-->
+	    L2Dwidget.init({
+		    dialog: {
+		        enable: true,
+		        script: {
+				          'tap body': '哎呀！别碰我！',
+				          'tap face': '人家是在认真写博客哦--前端妹子',
+		        }
+	    	}
+    	 });
+	</script>
 </body>
 </html>
