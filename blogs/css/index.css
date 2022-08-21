@@ -1,0 +1,42 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.bg_dark{
+	background-color: seagreen;
+}
+.shadow{
+	text-shadow: 5px 5px 5px;
+}
+.normal{
+	text-indent: 2em;
+	font-size: 20px;
+}
+.div_border{
+	border: 2px solid seagreen;
+	background-color: rgb(240,255,240,0.5);
+	border-radius:10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.title{
+	font-size: 50px;
+	color: yellowgreen;
+	font-weight: 900;
+	font-family: 思源黑体;
+}
+.summary_title{
+	font-size: 40px;
+}
+body{
+	background-color: rgb(170,220,170);
+}
+.div_margin{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#a_white{
+	color: white;
+}
