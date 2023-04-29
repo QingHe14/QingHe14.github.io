@@ -1,6 +1,7 @@
 *{
-    padding: 130%;
+    padding: 0;
     margin: 0;
+    font-family:等线宽light;
 }
 body{
     background-color: #f0f0f0;
@@ -23,7 +24,6 @@ header{
     padding-top: 14px;
     padding-bottom: 9px;
     color: #000;
-    font-family:等线宽light;
 }
 #block_hd:hover{
     padding-top: 11px;
@@ -45,7 +45,27 @@ article{
     width: 1360px;
     background-color:#ffffff;
     box-shadow: 0px 0px 10px #a1a1a1;
-    line-height: 60px;
+    padding: 20px;
+    line-height: 210%;
+}
+p{
+    font-size: 20px;
+}
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 25px;
+}
+li{
+    font-size: 20px;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
 }
 #page_self{
     width: 90px;
@@ -61,4 +81,32 @@ article{
 #page_self:hover{
     padding-top: 11px;
     border-top: rgb(0, 139, 194) 3px solid;
+}
+#blog1{
+    margin-top: 20px;
+    margin-left: 10px;
+    box-shadow: 0px 0px 10px #a1a1a1;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #eee;
+}
+#blog1:hover{
+    box-shadow: 0px 0px 20px #a1a1a1;
+}
+#blog2{
+    margin-top: 20px;
+    margin-left: 10px;
+    box-shadow: 0px 0px 10px #a1a1a1;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #fff;
+}
+#blog2:hover{
+    box-shadow: 0px 0px 20px #a1a1a1;
 }

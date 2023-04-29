@@ -60,6 +60,13 @@ h2{
 li{
     font-size: 20px;
 }
+a{
+    color: #000;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
+}
 #page_self{
     width: 90px;
     text-align: center;
@@ -74,4 +81,4 @@ li{
 #page_self:hover{
     padding-top: 11px;
     border-top: rgb(0, 139, 194) 3px solid;
-}该
+}
